@@ -35,3 +35,4 @@ Durable session memory for this VM job chain. Each line is one step or wind-down
 - [2026-11-12T14:09:18.269Z | VM 2/3] VERIFIED green: cd /home/runner/work/project-new-project-75fb7/project-new-project-75fb7; echo '=== upstream present? ==='; ls upstream | head; echo '=== node_modules? ==='; ls
 - [2026-11-12T14:12:39.398Z | VM 2/3] VERIFIED green: cd /home/runner/work/project-new-project-75fb7/project-new-project-75fb7/upstream/gen.pollinations.ai && (NODE_OPTIONS=--openssl-legacy-provider timeout 300 npx
 - [2026-11-12T14:16:48.972Z | VM 2/3] PLAN updated: 35 steps
+- [2026-11-12T14:17:51.714Z | VM 2/3] VERIFIED green: cd /home/runner/work/project-new-project-75fb7/project-new-project-75fb7/upstream; ( cd enter.pollinations.ai && timeout 400 npx vitest run test/account-balance
