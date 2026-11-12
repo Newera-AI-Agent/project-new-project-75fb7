@@ -5,9 +5,9 @@
   "maxMinutes": 240,
   "state": "running",
   "step": 16,
-  "minutesLeft": 212,
+  "minutesLeft": 210,
   "todoOpen": 34,
-  "updatedAt": "2026-11-12T10:17:22.034Z",
+  "updatedAt": "2026-11-12T10:19:22.037Z",
   "byok": {
     "active": false,
     "source": "admin",
