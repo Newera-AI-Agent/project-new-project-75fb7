@@ -11,3 +11,5 @@ Durable session memory for this VM job chain. Each line is one step or wind-down
 - [2026-11-12T10:33:42.717Z | VM 1/3] VERIFIED green: ls -R .newera/cyber 2>/dev/null | head -40; echo '=== enter harness ==='; ls upstream/enter.pollinations.ai/ | head -30; ls upstream/enter.pollinations.ai/vites
 - [2026-11-12T10:44:12.240Z | VM 1/3] VERIFIED green: cd upstream && cat gen.pollinations.ai/vitest.config.ts 2>/dev/null; echo '=== setup dir ==='; ls gen.pollinations.ai/test/setup/ 2>/dev/null; echo '=== shared 
 - [2026-11-12T10:50:25.298Z | VM 1/3] VERIFIED green: cd upstream && timeout 600 npx vitest run --root shared shared/auth/official-agent-publishers.test.ts 2>&1 | tail -25
+- [2026-11-12T10:51:44.700Z | VM 1/3] VERIFIED green: cd upstream && ls; echo '=== root pkg ==='; python3 -c "import json;d=json.load(open('package.json'));print(json.dumps({k:d.get(k) for k in ['name','workspaces'
+- [2026-11-12T10:52:16.111Z | VM 1/3] VERIFIED green: cd upstream && echo '=== gen vitest cfg ==='; cat gen.pollinations.ai/vitest.config.ts; echo '=== enter vitest cfg ==='; cat enter.pollinations.ai/vitest.config
