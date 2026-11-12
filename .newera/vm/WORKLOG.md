@@ -22,3 +22,5 @@ Durable session memory for this VM job chain. Each line is one step or wind-down
 - [2026-11-12T12:34:40.525Z | VM 1/3] VERIFIED green: cd upstream/gen.pollinations.ai && time npx vitest run test/safety.test.ts 2>&1 | tail -30
 - [2026-11-12T12:36:34.267Z | VM 1/3] VERIFIED green: cd upstream && echo '=== enter test sample ==='; head -50 enter.pollinations.ai/test/account-balance.test.ts; echo '=== media integration sample ==='; head -45 
 - [2026-11-12T12:41:34.611Z | VM 1/3] PLAN updated: 12 steps
+- [2026-11-12T12:53:15.117Z | VM 1/3] VERIFIED green: cd /home/runner/work/project-new-project-75fb7/project-new-project-75fb7 && echo '=== find contract ==='; find .newera -maxdepth 2 -type f | head -30; echo '===
+- [2026-11-12T12:53:32.712Z | VM 1/3] VERIFIED green: cd /home/runner/work/project-new-project-75fb7/project-new-project-75fb7 && echo '=== CONTRACT (PLAN.json requirements) ==='; python3 -c "import json;d=json.loa
