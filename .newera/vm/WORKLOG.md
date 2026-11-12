@@ -16,3 +16,5 @@ Durable session memory for this VM job chain. Each line is one step or wind-down
 - [2026-11-12T11:02:02.445Z | VM 1/3] VERIFIED green: cd upstream && echo '=== test dirs ==='; for d in shared enter.pollinations.ai gen.pollinations.ai media.pollinations.ai packages/auth; do echo "-- $d"; ls $d/t
 - [2026-11-12T11:15:04.321Z | VM 1/3] VERIFIED green: cd upstream && sed -n '1,60p' gen.pollinations.ai/test/billing-deduction.test.ts; echo '====== d1-calls test head ======'; sed -n '1,50p' gen.pollinations.ai/te
 - [2026-11-12T11:27:23.405Z | VM 1/3] VERIFIED green: cd upstream/gen.pollinations.ai && timeout 600 npx vitest run test/client-ip.test.ts 2>&1 | tail -25
+- [2026-11-12T11:40:34.199Z | VM 1/3] VERIFIED green: cd upstream && ls -1; echo '--- vitest configs ---'; find . -maxdepth 3 \( -name 'vitest.config*' -o -name 'vitest.workspace*' \) -not -path '*/node_modules/*' 
+- [2026-11-12T11:40:51.178Z | VM 1/3] VERIFIED green: cd upstream && echo '=== gen vitest.config ===' && cat gen.pollinations.ai/vitest.config.ts && echo '=== test dir listing ===' && ls -1 gen.pollinations.ai/test
