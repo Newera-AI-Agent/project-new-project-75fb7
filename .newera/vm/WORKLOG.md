@@ -6,3 +6,4 @@ Durable session memory for this VM job chain. Each line is one step or wind-down
 - [2026-11-12T10:07:45.064Z | VM 1/3] VERIFIED green: mkdir -p .newera/cyber/engagement/evidence .newera/cyber/pocs && cat > .newera/cyber/scope.json <<'EOF' {   "engagement": {     "id": "pollinations-local-redtea
 - [2026-11-12T10:09:01.702Z | VM 1/3] PLAN updated: 35 steps
 - [2026-11-12T10:20:11.458Z | VM 1/3] VERIFIED green: cd /tmp/pollinations && ls node_modules/.bin | grep -E 'vitest|tsx|wrangler' ; echo '--- move into repo ---'; cd - >/dev/null; du -sh /tmp/pollinations; mv /tmp
+- [2026-11-12T10:26:17.759Z | VM 1/3] VERIFIED green: cd upstream && cat gen.pollinations.ai/vitest.config.ts 2>/dev/null; echo '=== shared vitest ==='; cat shared/vitest.config.ts; echo '=== example tests ==='; fi
