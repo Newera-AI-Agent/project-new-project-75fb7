@@ -1,0 +1,21 @@
+{
+  "engagement": {
+    "id": "pollinations-local-redteam",
+    "authorization": "User-stated explicit authorization to test the pollinations/pollinations open-source repository (github.com/pollinations/pollinations). All testing is performed against a LOCAL CLONE of the upstream source in this VM and against loopback-only mock services. No traffic is sent to any live pollinations.ai production endpoint, no production data is accessed, and no harmful action is taken against the platform or its users.",
+    "date": "2026-11-12",
+    "target_commit": "5c790c785c5063a4ec260e99b61e215bfebaa399",
+    "operator_note": "Report-only, defensive security research. PoCs are minimal, local, non-destructive, and never fired at production."
+  },
+  "targets": [
+    "file:///tmp/pollinations",
+    "http://127.0.0.1",
+    "http://localhost"
+  ],
+  "out_of_scope": [
+    "*.pollinations.ai production endpoints",
+    "pollinations.ai production accounts, keys, and data",
+    "third-party APIs (OpenAI, Stripe, Replicate, etc.) beyond local mocks",
+    "denial-of-service or resource-exhaustion attacks against production",
+    "any action affecting real users, payments, or balances"
+  ]
+}
