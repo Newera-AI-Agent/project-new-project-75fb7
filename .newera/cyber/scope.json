@@ -7,7 +7,7 @@
     "operator_note": "Report-only, defensive security research. PoCs are minimal, local, non-destructive, and never fired at production."
   },
   "targets": [
-    "file:///tmp/pollinations",
+    "file:///home/runner/work/project-new-project-75fb7/project-new-project-75fb7/upstream",
     "http://127.0.0.1",
     "http://localhost"
   ],
