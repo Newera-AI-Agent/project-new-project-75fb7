@@ -25,3 +25,4 @@ Durable session memory for this VM job chain. Each line is one step or wind-down
 - [2026-11-12T12:53:15.117Z | VM 1/3] VERIFIED green: cd /home/runner/work/project-new-project-75fb7/project-new-project-75fb7 && echo '=== find contract ==='; find .newera -maxdepth 2 -type f | head -30; echo '===
 - [2026-11-12T12:53:32.712Z | VM 1/3] VERIFIED green: cd /home/runner/work/project-new-project-75fb7/project-new-project-75fb7 && echo '=== CONTRACT (PLAN.json requirements) ==='; python3 -c "import json;d=json.loa
 - [2026-11-12T13:21:31.123Z | VM 1/3] VERIFIED green: cd /home/runner/work/project-new-project-75fb7/project-new-project-75fb7 && mkdir -p .newera/cyber/engagement/findings .newera/cyber/engagement/evidence && cat 
+- [2026-11-12T13:34:46.628Z | VM 1/3] RELAY checkpoint at step 140 — handoff committed, VM 2 continues.
