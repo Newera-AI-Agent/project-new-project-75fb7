@@ -26,3 +26,5 @@ Durable session memory for this VM job chain. Each line is one step or wind-down
 - [2026-11-12T12:53:32.712Z | VM 1/3] VERIFIED green: cd /home/runner/work/project-new-project-75fb7/project-new-project-75fb7 && echo '=== CONTRACT (PLAN.json requirements) ==='; python3 -c "import json;d=json.loa
 - [2026-11-12T13:21:31.123Z | VM 1/3] VERIFIED green: cd /home/runner/work/project-new-project-75fb7/project-new-project-75fb7 && mkdir -p .newera/cyber/engagement/findings .newera/cyber/engagement/evidence && cat 
 - [2026-11-12T13:34:46.628Z | VM 1/3] RELAY checkpoint at step 140 — handoff committed, VM 2 continues.
+- [2026-11-12T13:35:11.256Z | VM 2/3] boot: VM 2/3 online (job vm-mwdlay8e-1ckfx3dn, 240 min budget, relay continuation)
+- [2026-11-12T13:35:11.256Z | VM 2/3] self-check PASS: shell: VERIFIED (the harness executed bash on this VM at boot); node: v24.22.2; npm: 11.19.1; python3: Python 3.12.3; git: repo checked out @ 9d41c90; browser: Google Chrome 156.0.8078.79 available — the browser_* tools drive it (playwright-core installs on first browser call); filesystem: WRITABLE 
