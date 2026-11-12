@@ -1,0 +1,120 @@
+shared/utils/model-stats.ts:34:        const response = await fetch(TINYBIRD_MODEL_STATS_URL);
+shared/events.ts:57:        const response = await fetch(tinybirdIngestUrl, {
+shared/events.ts:86:        const response = await fetch(tinybirdIngestUrl, {
+shared/github/client.ts:12:    const res = await fetch(`${GITHUB_API}/graphql`, {
+shared/github/app-auth.ts:152:    const res = await fetch(`${GITHUB_API}${path}`, {
+shared/github/app-auth.ts:213:    const res = await fetch(
+shared/community-media.ts:157:        response = await fetch(url, {
+shared/community-media.ts:192:        response = await fetch(url, {
+shared/test/mocks/fetch.ts:32:        return await handler.fetch(mockRequest);
+shared/test/mocks/vcr.ts:121:    const response = await fetch(`${snapshotServerUrl}/${filename}`);
+shared/test/mocks/vcr.ts:135:    const response = await fetch(`${snapshotServerUrl}/${filename}`, {
+enter.pollinations.ai/src/utils/product-analytics.ts:65:        const response = await fetch(
+enter.pollinations.ai/src/index.ts:88:    fetch(request, env, ctx) {
+enter.pollinations.ai/src/index.ts:92:        return app.fetch(request, env, ctx);
+enter.pollinations.ai/src/services/client-metadata.ts:46:        const response = await fetch(clientId, {
+enter.pollinations.ai/src/services/sites.ts:99:    const response = await fetch(
+enter.pollinations.ai/src/services/sites.ts:174:        const response = await fetch(session.uploadUrl, {
+enter.pollinations.ai/src/services/sites.ts:211:    const response = await fetch(dispatchScriptUrl(env, namespace, name), {
+enter.pollinations.ai/src/services/sites.ts:221:    const response = await fetch(dispatchScriptUrl(env, namespace, name), {
+enter.pollinations.ai/src/services/sites.ts:243:    const response = await fetch(
+enter.pollinations.ai/src/services/quests/groups/github-profile.ts:36:    const response = await fetch(`https://api.github.com/user/${githubId}`, {
+enter.pollinations.ai/src/services/quests/groups/github-profile.ts:82:        const response = await fetch(
+enter.pollinations.ai/src/services/community-endpoint-openai.ts:90:        response = await fetch(url, {
+enter.pollinations.ai/src/services/community-endpoint-openai.ts:543:        return await fetch(url, {
+enter.pollinations.ai/src/services/code-agent.ts:50:        fetch(repositoryUrl, { headers }),
+enter.pollinations.ai/src/services/code-agent.ts:51:        fetch(`${repositoryUrl}/commits/HEAD`, { headers }),
+enter.pollinations.ai/src/services/code-agent.ts:104:    const sourceResponse = await fetch(
+enter.pollinations.ai/src/services/code-agent.ts:209:    const response = await fetch(dispatchScriptUrl(env, namespace, id), {
+enter.pollinations.ai/src/services/code-agent.ts:219:    const response = await fetch(dispatchScriptUrl(env, namespace, id), {
+enter.pollinations.ai/src/services/code-agent-runtime.js:48:        return fetch(path instanceof Request ? path : url, {
+enter.pollinations.ai/src/services/code-agent-runtime.js:148:        async fetch(request, env) {
+enter.pollinations.ai/src/services/code-agent-outbound.ts:12:    if (url.origin !== context.origin) return fetch(request);
+enter.pollinations.ai/src/services/code-agent-outbound.ts:16:    return fetch(new Request(request, { headers, redirect: "manual" }));
+enter.pollinations.ai/src/services/discord.ts:80:    const response = await fetch(
+enter.pollinations.ai/src/services/tinybird.ts:46:    const response = await fetch(url.toString(), {
+enter.pollinations.ai/src/auth.ts:599:                    const res = await fetch(
+enter.pollinations.ai/src/routes/integrations.ts:51:    return c.env.COMPOSIO_MCP.fetch(
+enter.pollinations.ai/src/routes/referral.ts:28:    const response = await fetch(
+enter.pollinations.ai/src/routes/github-secret-scanning.ts:44:    const response = await fetch(GITHUB_KEYS_URL, {
+enter.pollinations.ai/src/routes/stripe-webhooks.ts:308:        const response = await fetch(tinybirdUrl, {
+gen.pollinations.ai/src/utils/execute-generation.ts:129:            }).fetch(request, env, executionCtx),
+gen.pollinations.ai/src/userImage.ts:197:        response = await fetch(url, {
+gen.pollinations.ai/src/text/auth/googleCloudAuth.ts:68:        const response = await fetch("https://oauth2.googleapis.com/token", {
+gen.pollinations.ai/src/text/handler.ts:149:        portkey ? (input, init) => portkey.fetch(input, init) : undefined,
+gen.pollinations.ai/src/text/agents/client.ts:46:        return fetch(request);
+gen.pollinations.ai/src/text/agents/code-client.ts:52:        worker.fetch(
+gen.pollinations.ai/src/text/systemOneClient.ts:292:        const response = await fetch(requestUrl, {
+gen.pollinations.ai/src/sites.ts:36:        return await sites.get(name).fetch(request);
+gen.pollinations.ai/src/sites.ts:72:        return env.ASSETS.fetch(request).then((asset) =>
+gen.pollinations.ai/src/index.ts:196:    const response = await c.env.ENTER.fetch(rewriteRequest(c.req.raw, url));
+gen.pollinations.ai/src/index.ts:318:            app.fetch(request, c.env, c.executionCtx),
+gen.pollinations.ai/src/index.ts:345:        const asset = await c.env.ASSETS.fetch(c.req.raw);
+gen.pollinations.ai/src/index.ts:379:                        .fetch(request, env, ctx);
+gen.pollinations.ai/src/index.ts:381:                return serveSite(request, env) ?? app.fetch(request, env, ctx);
+gen.pollinations.ai/src/durable-objects/GenerationCoordinator.ts:278:                await fetch(
+gen.pollinations.ai/src/routes/assemblyai-transcription.ts:165:        await fetch(uploadUrl, {
+gen.pollinations.ai/src/routes/assemblyai-transcription.ts:230:        await fetch(transcriptUrl, {
+gen.pollinations.ai/src/routes/assemblyai-transcription.ts:261:            await fetch(transcriptUrl, {
+gen.pollinations.ai/src/routes/assemblyai-transcription.ts:305:        await fetch(subtitleUrl, {
+gen.pollinations.ai/src/routes/docs.ts:489:      var res = await fetch('/docs/llm.txt');
+gen.pollinations.ai/src/routes/docs.ts:828:    const response = await c.env.ENTER.fetch(
+gen.pollinations.ai/src/routes/docs.ts:851:    const response = await fetch(`${mediaOrigin}/openapi.json`);
+gen.pollinations.ai/src/routes/realtime.ts:168:    const response = (await fetch(buildUpstreamUrl(model), {
+gen.pollinations.ai/src/routes/realtime.ts:261:    const response = (await fetch(
+gen.pollinations.ai/src/routes/mcp.ts:219:        const response = await binding.fetch(
+gen.pollinations.ai/src/routes/audio.ts:255:        response = await fetch(url, {
+gen.pollinations.ai/src/routes/audio.ts:482:    const rawResponse = await fetch(elevenLabsUrl, {
+gen.pollinations.ai/src/routes/audio.ts:548:        await fetch(endpoint, {
+gen.pollinations.ai/src/routes/audio.ts:624:        await fetch(endpoint, {
+gen.pollinations.ai/src/routes/audio.ts:739:        await fetch(endpoint, {
+gen.pollinations.ai/src/routes/audio.ts:801:        await fetch(endpoint, {
+gen.pollinations.ai/src/routes/audio.ts:894:        await fetch(AZURE_GPT_TRANSCRIBE_ENDPOINT, {
+gen.pollinations.ai/src/routes/audio.ts:1015:        await fetch(xaiUrl, {
+gen.pollinations.ai/src/routes/audio.ts:1190:        await fetch(endpoint, {
+gen.pollinations.ai/src/routes/audio.ts:1357:        await fetch(OPENROUTER_STT_ENDPOINT, {
+gen.pollinations.ai/src/routes/audio.ts:1492:    const rawResponse = await fetch(elevenLabsUrl, {
+gen.pollinations.ai/src/routes/audio.ts:1680:    const rawResponse = await fetch(uploadUrl, {
+gen.pollinations.ai/src/routes/audio.ts:1816:    const rawResponse = await fetch(elevenLabsUrl, {
+gen.pollinations.ai/src/routes/audio.ts:1954:            await fetch(data.audio.url),
+gen.pollinations.ai/src/routes/audio.ts:1968:    const rawResponse = await fetch(elevenLabsUrl, {
+gen.pollinations.ai/src/routes/audio.ts:2115:    const rawResponse = await fetch(endpoint, {
+gen.pollinations.ai/src/routes/audio.ts:2408:    const rawResponse = await fetch(config.endpoint, {
+gen.pollinations.ai/src/routes/audio.ts:2430:        await fetch(audioUrl),
+gen.pollinations.ai/src/routes/audio.ts:2479:        await fetch(OPENROUTER_SPEECH_ENDPOINT, {
+gen.pollinations.ai/src/routes/audio.ts:2600:        await fetch(url, {
+gen.pollinations.ai/src/routes/audio.ts:2841:        await fetch(GEMINI_TTS_ENDPOINT, {
+gen.pollinations.ai/src/routes/audio.ts:2936:        const response = await fetch(endpoint, {
+gen.pollinations.ai/src/routes/audio.ts:2997:        await fetch(OPENROUTER_SPEECH_ENDPOINT, {
+gen.pollinations.ai/src/routes/audio.ts:3063:        await fetch(XAI_TTS_ENDPOINT, {
+gen.pollinations.ai/src/routes/audio.ts:3135:        await fetch(endpoint, {
+gen.pollinations.ai/src/routes/audio.ts:3194:        await fetch(DEEPINFRA_TTS_ENDPOINT, {
+gen.pollinations.ai/src/routes/audio.ts:3343:        await fetch(audioUrl),
+gen.pollinations.ai/src/routes/audio.ts:3454:        await fetch(endpoint, {
+gen.pollinations.ai/src/routes/audio.ts:3484:        const pollResponse = await fetch(resultUrl, {
+gen.pollinations.ai/src/routes/audio.ts:4387:            await fetch(whisperUrl, {
+gen.pollinations.ai/src/routes/model-status.ts:18:    const upstream = await fetch(url, {
+gen.pollinations.ai/src/routes/model-status.ts:124:        const upstream = await fetch(url, {
+gen.pollinations.ai/src/routes/e2b.ts:165:    return fetch(`${E2B_API}${path}`, { ...init, headers });
+gen.pollinations.ai/src/routes/e2b.ts:535:    const created = await c.env.ENTER.fetch(
+gen.pollinations.ai/src/routes/e2b.ts:576:    const response = await fetch(
+gen.pollinations.ai/src/routes/e2b.ts:980:        api.fetch(
+gen.pollinations.ai/src/routes/e2b.ts:1179:    return fetch(`${origin}${url.pathname}${url.search}`, {
+gen.pollinations.ai/src/routes/docs-samples.ts:151:            source: `const response = await fetch(
+gen.pollinations.ai/src/routes/docs-samples.ts:192:            source: `const response = await fetch(
+gen.pollinations.ai/src/routes/docs-samples.ts:222:            source: `const response = await fetch(
+gen.pollinations.ai/src/routes/docs-samples.ts:257:            source: `const response = await fetch(
+gen.pollinations.ai/src/routes/docs-samples.ts:373:            source: `const response = await fetch(
+gen.pollinations.ai/src/routes/docs-samples.ts:403:            source: `const response = await fetch(
+gen.pollinations.ai/src/routes/docs-samples.ts:433:            source: `const response = await fetch(
+gen.pollinations.ai/src/routes/docs-samples.ts:484:            source: `const response = await fetch("https://gen.pollinations.ai/image/models");
+gen.pollinations.ai/src/routes/docs-samples.ts:498:            source: `const response = await fetch("https://gen.pollinations.ai/text/models");
+gen.pollinations.ai/src/routes/docs-samples.ts:512:            source: `const response = await fetch("https://gen.pollinations.ai/audio/models");
+gen.pollinations.ai/src/routes/azure-sandboxes.ts:86:    const response = await fetch(
+gen.pollinations.ai/src/routes/azure-sandboxes.ts:119:    const response = await fetch(url, { ...init, headers });
+gen.pollinations.ai/src/routes/azure-sandboxes.ts:160:        const response = await fetch(url).catch(() => null);
+gen.pollinations.ai/src/routes/azure-sandboxes.ts:508:    const response = await fetch(request);
+gen.pollinations.ai/src/audio/mai-transcription.ts:92:        await fetch(url, {
+gen.pollinations.ai/src/audio/lyria.ts:58:            await fetch(data.audio.url),
+gen.pollinations.ai/src/audio/lyria.ts:71:            await fetch(endpoint, {
+gen.pollinations.ai/src/audio/communityEndpoint.ts:58:        response = await fetch(upstreamUrl, {
