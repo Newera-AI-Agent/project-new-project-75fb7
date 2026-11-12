@@ -19,3 +19,4 @@ Durable session memory for this VM job chain. Each line is one step or wind-down
 - [2026-11-12T11:40:34.199Z | VM 1/3] VERIFIED green: cd upstream && ls -1; echo '--- vitest configs ---'; find . -maxdepth 3 \( -name 'vitest.config*' -o -name 'vitest.workspace*' \) -not -path '*/node_modules/*' 
 - [2026-11-12T11:40:51.178Z | VM 1/3] VERIFIED green: cd upstream && echo '=== gen vitest.config ===' && cat gen.pollinations.ai/vitest.config.ts && echo '=== test dir listing ===' && ls -1 gen.pollinations.ai/test
 - [2026-11-12T11:58:47.738Z | VM 1/3] VERIFIED green: cd upstream && ls gen.pollinations.ai/tests | head -20; echo '--- vitest cfg gen ---'; cat gen.pollinations.ai/vitest.config.ts 2>/dev/null || ls gen.pollinatio
+- [2026-11-12T12:34:40.525Z | VM 1/3] VERIFIED green: cd upstream/gen.pollinations.ai && time npx vitest run test/safety.test.ts 2>&1 | tail -30
